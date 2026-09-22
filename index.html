@@ -25,7 +25,7 @@
 <header class="topbar"><div class="wrap"><div class="brand"><div class="brand-mark">⌂</div><div>Alto da Rasa <small>Aluguel residencial</small></div></div><a class="top-cta wa-link" href="#">WhatsApp</a></div></header>
 <main>
 <section class="hero"><div class="wrap"><div class="eyebrow">Disponível para locação anual</div><div class="title-row"><div><h1>Apartamento semimobiliado de 1 quarto em Búzios</h1><div class="subtitle">📍 Rua 22, Alto da Rasa, Armação dos Búzios</div><div class="facts"><span class="fact">1 quarto</span><span class="fact">Semimobiliado</span><span class="fact">Até 2 adultos</span><span class="fact">Sem pets</span><span class="fact">Sem garagem</span><span class="fact">Água inclusa</span></div></div><div class="price-head"><strong>R$ 1.350/mês</strong><span>Contrato de 12 meses • 1 caução</span></div></div>
-<div class="full-carousel" id="fullCarousel"><div class="full-carousel-head"><h3>Galeria completa</h3><span>Todas as 17 fotos do imóvel</span></div><div class="full-carousel-stage"><div class="full-carousel-track" id="fullTrack"></div><button class="full-carousel-nav full-carousel-prev" id="fullPrev" aria-label="Foto anterior">‹</button><button class="full-carousel-nav full-carousel-next" id="fullNext" aria-label="Próxima foto">›</button><div class="full-carousel-counter" id="fullCounter">1 / 17</div></div><div class="thumb-strip" id="thumbStrip" aria-label="Miniaturas das fotos"></div></div>
+<div class="full-carousel" id="fullCarousel"><div class="full-carousel-head"><h3>Galeria completa</h3><span>Todas as 14 fotos do imóvel</span></div><div class="full-carousel-stage"><div class="full-carousel-track" id="fullTrack"></div><button class="full-carousel-nav full-carousel-prev" id="fullPrev" aria-label="Foto anterior">‹</button><button class="full-carousel-nav full-carousel-next" id="fullNext" aria-label="Próxima foto">›</button><div class="full-carousel-counter" id="fullCounter">1 / 14</div></div><div class="thumb-strip" id="thumbStrip" aria-label="Miniaturas das fotos"></div></div>
 </div></section>
 <section><div class="wrap content"><div>
 <div class="summary"><h2>Semimobiliado, funcional e com tudo por perto</h2><p>Um apartamento compacto e funcional para locação residencial, com os principais móveis já disponíveis. O imóvel fica em condomínio fechado, possui varanda fechada em vidro e está a poucos minutos a pé de mercado, padaria, farmácia, academia, papelaria e outros comércios do bairro.</p></div>
@@ -69,24 +69,21 @@
 const photoFiles = [
   'assets/foto-01.b64',
   'assets/foto-02.b64',
-  'assets/foto-03.b64',
   'assets/foto-04.b64',
   'assets/foto-05.b64',
-  'assets/foto-07.b64',
   'assets/foto-08.b64',
   'assets/foto-09.b64',
   'assets/foto-10.b64',
   'assets/foto-11.b64',
   'assets/foto-12.b64',
   'assets/foto-13.b64',
-  'assets/foto-14.b64',
   'assets/foto-15.b64',
   'assets/foto-16.b64',
-  'assets/foto-17.b64',
-  'assets/foto-18.b64'
+  'assets/varanda.b64',
+  'assets/corredor-escada.b64'
 ];
 let photos = [];
-const labels = ['Cozinha integrada e bancada', 'Sala de jantar', 'Sala integrada', 'Mesa com 4 cadeiras', 'Sala com sofá', 'Banheiro', 'Cozinha', 'Banheiro com box de vidro', 'Quarto com cama e ar-condicionado', 'Condomínio fechado', 'Acesso ao condomínio', 'Banheiro', 'Cozinha com armários', 'Entrada do apartamento', 'Área de serviço', 'Varanda fechada em vidro', 'Corredor e acesso à escada de saída'];
+const labels = ['Cozinha integrada e bancada', 'Sala de jantar', 'Mesa com 4 cadeiras', 'Sala com sofá', 'Cozinha', 'Banheiro com box de vidro', 'Quarto com cama e ar-condicionado', 'Condomínio fechado', 'Acesso ao condomínio', 'Banheiro', 'Entrada do apartamento', 'Área de serviço', 'Varanda fechada em vidro', 'Corredor e acesso à escada de saída'];
 const phone='5522998911070';
 const msg=encodeURIComponent('Olá, Guilherme! Vi o anúncio do apartamento semimobiliado na Rua 22, Alto da Rasa, por R$ 1.350/mês. Gostaria de saber se ainda está disponível e combinar uma visita.');
 const wa=`https://wa.me/${phone}?text=${msg}`;
